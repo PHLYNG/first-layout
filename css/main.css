@@ -1,0 +1,24 @@
+/* web fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/*basic margin reset*/
+
+body, h1, h2, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 50px auto;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 10px;
+}
