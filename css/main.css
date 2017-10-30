@@ -35,31 +35,12 @@ nav a {
   background-color: tomato;
   color: white;
 }
-/* need to get divs lined up in a row */
-div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 50%;
-}
 
-#html {
-
-}
-
-#css {
-
-}
-
-#js {
-  
-}
-
-/* need to center headings in each div */
-h2 {
-  display: flex;
-  align-items: center;
+/*only need this to get 3 divs to line up*/
+#main {
+  display:flex;
+  justify-content: center;
+  padding-top: 2em;
 }
 
 #hero {
@@ -70,8 +51,18 @@ h2 {
   padding-bottom: 5em;
 }
 
+cite {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 40%;
+  width: 40%;
+}
+
 img {
-  height: 15%;
-  width: 15%;
+  height: 10%;
+  width: 10%;
   padding-bottom: 2em;
 }
