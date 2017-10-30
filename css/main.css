@@ -4,7 +4,7 @@
 
 /*basic margin reset*/
 
-body, h1, h2, ul, ol {
+body, h1, ul, ol {
   margin: 0;
   padding: 0;
 }
@@ -12,17 +12,66 @@ body, h1, h2, ul, ol {
 body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 50px auto;
+  width: 60%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 20em;
+}
+
+nav a {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: tomato;
+  color: white;
+}
+/* need to get divs lined up in a row */
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 50%;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  list-style-type: none;
-  padding: 10px;
+#html {
+
 }
 
-a {
-  text-decoration: none;
+#css {
+
+}
+
+#js {
+  
+}
+
+/* need to center headings in each div */
+h2 {
+  display: flex;
+  align-items: center;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  padding-bottom: 2em;
 }
